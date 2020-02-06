@@ -6,4 +6,5 @@ jobs:
       - image: circleci/python:latest
     steps:
       - checkout # Checks out the source code
+      - run: python hw.py
       - run: echo "Hello World!"
