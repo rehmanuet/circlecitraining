@@ -1,0 +1,9 @@
+# Top of file
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:latest
+    steps:
+      - checkout # Checks out the source code
+      - run: echo "Hello World!"
